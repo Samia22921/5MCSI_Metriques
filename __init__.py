@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/rapport/')
 def mongraphique():
-    return render_template("graphique.html")
+    return render_template('graphique.html')
                                                                                                                                        
   
 if __name__ == "__main__":
