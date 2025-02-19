@@ -4,12 +4,7 @@ from flask import json
 from datetime import datetime
 from urllib.request import urlopen
 import sqlite3
-                                                                                                                                       
-                                                                                                                                      
-
-@app.route('/')
-def hello_world():
-    return render_template('hello.html') #Comm1
+                                                                                                                                                                                                                                                                     
 
   @app.route('/tawarano/')
 def meteo():
