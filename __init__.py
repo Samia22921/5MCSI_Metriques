@@ -7,13 +7,10 @@ import sqlite3
                                                                                                                                        
 app = Flask(__name__)   
 
-@app.route("/rapport/")
+@app.route('/rapport/')
 def mongraphique():
     return render_template("graphique.html")
                                                                                                                                        
-@app.route('/')
-def hello_world():
-    return render_template('hello.html') #Comm1
   
 if __name__ == "__main__":
   app.run(debug=True)    
