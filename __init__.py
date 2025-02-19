@@ -12,4 +12,4 @@ def hello_world():
     return render_template('hello.html') #Comm1
   
 if __name__ == "__main__":
-  app.run(debug=True) #Ajout de la route /contact/
+  app.run(debug=True)
