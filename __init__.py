@@ -6,9 +6,15 @@ from urllib.request import urlopen
 import sqlite3
                                                                                                                                        
 app = Flask(__name__)   
- @app.route("/rapport/")
-def mongraphique():
-    return render_template("graphique.html")
+ 
+@app.route('/contact/')
+def contact():
+    return render_template('contact.html') #Ma page de Contact modification
+                                                                                                                                       
+@app.route('/')
+def hello_world():
+    return render_template('hello.html') #Comm1
+  
 if __name__ == "__main__":
   app.run(debug=True)    
 
