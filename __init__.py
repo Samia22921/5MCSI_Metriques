@@ -9,7 +9,7 @@ app = Flask(__name__)
   
 @app.route('/')
 def contact():
-    return render_template('contact.html') #Comm1
+    return render_template('contact.html') #Contact
                                                                                                                                        
 if __name__ == "__main__":
   app.run(debug=True)    
