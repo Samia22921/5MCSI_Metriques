@@ -44,6 +44,11 @@ for commit in commits_data:
 # Exercice 6 : Route pour afficher le graphique des commits 
 @app.route('/commits-graph/') def commits_graph(): 
   return render_template("commits.html") 
+
+@app.route('/')
+def hello_world():
+    return render_template('hello.html') #Comm1
+
                                                                                                                                        
   
 if __name__ == "__main__":
